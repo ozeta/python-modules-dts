@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "module-a"
+name = "module_a"
 version = "0.1.0"
 description = ""
 authors = ["Marco Carrozzo <ozeta86@gmail.com>"]
