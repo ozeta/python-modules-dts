@@ -1,8 +1,12 @@
 from fastapi import APIRouter
 import requests
+
 router = APIRouter()
 import logging
+
 logger = logging.getLogger(__name__)
+
+
 @router.get("/pet_store/{pet_id}")
 def get_pet_by_id(pet_id: int, q: str | None = None):
     logger.info("looking for pet")
